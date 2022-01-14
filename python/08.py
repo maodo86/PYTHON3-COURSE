@@ -14,10 +14,18 @@ if __name__ == '__main__':
 
     # display the value of dict
     print(var)
+
+    print('\n')
     print(var['name'])
     print(var['age'])
     print(var['poids'])
     print(var['country'])
+    print('\n')
+
+    print(var.get('name'))
+    print(var.get('age'))
+    print(var.get('poids'))
+    print(var.get('country'))
     print('\n')
 
     # update dict (add new value)
