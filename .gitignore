@@ -8,6 +8,7 @@ db.sqlite3
 media/
 staticfiles/
 .DS_Store/
+*.pdf
 
 # Backup files #
 *.bak
