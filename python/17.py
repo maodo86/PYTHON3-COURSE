@@ -1,30 +1,55 @@
 # Strings manipulations
 
+var = 'ecole multinationale des télécomunications'
+var2 = 'ecole multinationale, des télécomunications'
+
+
 if __name__ == '__main__':
-    name1 = input('Enter your first_name: ')
-    name2 = input('Enter your last_name: ')
-    country = input('Enter your country: ')
+    upper = var.upper()
+    lower = var.lower()
+    capitalize = var.capitalize()
+    split = var.split(' ')
+    split2 = var2.split(',')
+    count = len(split)
+    count2 = len(split2)
 
-    # name1 = str(input('Enter your first_name: '))
-    # name2 = str(input('Enter your last_name: '))
-    # country = str(input('Enter your country: '))
+    print(f'Var Upper is:')
+    print(f'{upper}')
+    print('\n')
+
+    print(f'Var Lower is:')
+    print(f'{lower}')
+    print('\n')
+
+    print(f'Var Capitalize is:')
+    print(f'{capitalize}')
+    print('\n')
+
+    print(f'Var split is:')
+    print(type(split))
+    print(split)
+    print('\n')
+
+    print(f'Var2 split is:')
+    print(type(split))
+    print(split)
+    print('\n')
+
+    print(f'Var split count is:')
+    print(count)
+    print('\n')
+
+    print(f'Var2 split count is:')
+    print(count2)
+    print('\n')
+
+    print(f'Var and Var2 split count with __len__:')
+    print(split.__len__())
+    print(split2.__len__())
 
     print('\n')
-    print('Your First Name is: ', name1)
-    print('Your Last Name is: ', name2)
-    print('Your country is: ', country)
-
-    print('\n')
-    print(f'Your First Name is: {name1}')
-    print(f'Your Last Name is: {name2}')
-    print(f'Your country is: {country}')
-
-    print('\n')
-    print('Your First Name is: '.format(name1))
-    print('Your Last Name is: '.format(name2))
-    print('Your country is: '.format(country))
-
-    print('\n')
-    print('Your First Name is: %s' % name1)
-    print('Your Last Name is: %s' % name2)
-    print('Your country is: %s' % country)
+    print(f'Assertions')
+    assert split.__len__() == count
+    print(f'OK.....................')
+    assert split2.__len__() == count2
+    print(f'OK.....................')
