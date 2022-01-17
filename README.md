@@ -102,3 +102,18 @@ ___
     * affichez la sous-liste du 3e élément à la fin de la liste;
     * affichez la sous-liste complète de la liste;
 
+___
+
+* Ecrire une application qui permet de renvoyer les indexes des lettres majuscules contenues dans la phrase "PythOn PouR LES Nuls"
+
+> Exemple: ("HeLlO") ==> [0, 2, 4]
+
+___
+
+* Ecrire une application qui permet de renvoyer les indexes des lettres majuscules:
+    * demander à l'utilisateur de donner une phrase ou un mot qui soit être une chaine de caractère:
+        * veuillez à ce que la longueur de ce que l'utilisateur entre soit supérieure à 2 dans le cas contraire obnligez le à entrer la bonne phrase ou un mot dont la longueur est supérieur à 2
+        * après retourner les indexes des lettres en majuscules
+        * Puis tester l'application avec différentes phrases que voici:
+            * HeLl0 ==> [0, 2, 4]
+            * HeLlO Les etudiaNtS ==> [0, 2, 4, 6, 16, 18]
