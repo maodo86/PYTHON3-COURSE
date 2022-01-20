@@ -42,6 +42,20 @@ def openFile(filename: str):
 #         f.close()
 
 
+# def openFile(filename: str):
+#     try:
+#         with open(filename, 'r') as f:
+#             for line in f.readlines():
+#                 print(line)
+#                 f.close()
+#     except FileNotFoundError as exception:
+#         print(f"Pas de fichier du nom de {filename.split('/')[-1]}")
+
+
 if __name__ == '__main__':
     jumpNextLine()
     openFile('files/file1.txt')
+
+    # jumpNextLine()
+    # openFile('files/file2.txt')
+
