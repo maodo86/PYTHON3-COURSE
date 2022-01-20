@@ -1,4 +1,4 @@
-# functions and class (Part 2)
+# functions (Part 2)
 
 def jumpNextLine():
     print('\n')
