@@ -177,7 +177,15 @@ statuses = {
 
 ---
 
-<ins>Exercice 9: Anagrams</ins>  
+<ins>Exercice 10: Anagrams</ins>  
 * Two strings are anagrams if you can make one from the other by rearranging the letters.  
 Write a function named <code>is_anagram</code> that takes two strings as its parameters. Your function should return True if the strings are anagrams, and False otherwise.  
 For example, the call <code>is_anagram("typhoon", "opython")</code> should return True while the call is_anagram("Alice", "Bob") should return False.
+
+---
+
+<ins>Exercice 10: Flatten a list</ins>  
+* Write a function that takes a list of lists and flattens it into a one-dimensional list.
+* Name your function <code>flatten</code>. It should take a single parameter and return a list.
+For example, calling:
+flatten([[1, 2], [3, 4]]) Should return the list: [1, 2, 3, 4]
