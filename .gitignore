@@ -9,6 +9,7 @@ media/
 staticfiles/
 .DS_Store/
 *.pdf
+exercices
 
 # Backup files #
 *.bak
