@@ -1,5 +1,5 @@
-# Les classes (Part 8)
-# Constructeur des classes
+# Les classes (Part 9)
+# portée des fonctions et des variables
 
 
 def jumpNextLine():
