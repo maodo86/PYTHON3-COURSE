@@ -1,4 +1,4 @@
-# Lecture / Ecriture dans les fichiers (Part 1)
+# Lecture / Ecriture dans les fichiers (Part 2)
 
 def jumpNextLine():
     print('\n')
